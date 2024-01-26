@@ -1,1 +1,22 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Personal Script", "DarkTheme")
 
+
+--Main
+local Main = Window:NewTab("Red_couch3's Script")
+local MainSection = Main:NewSection("Scripts")
+
+
+MainSection:NewButton("Infinite Yield", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+MainSection:NewButton("Tp Spam", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Tp%20Spam'))()
+end)
+
+
+MainSection:NewButton("Rejoin", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Rejoin'))()
+end)
