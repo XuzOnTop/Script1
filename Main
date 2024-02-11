@@ -36,3 +36,7 @@ MainSection:NewButton("Parking Ticket Rizz", "Executes the script shown", functi
     loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Parking%20Ticket%20Rizz'))()
 end)
 
+MainSection:NewButton("Cute Cumber Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Vegetable%20Rizz'))()
+end)
+
