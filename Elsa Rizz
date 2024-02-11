@@ -1,0 +1,16 @@
+local args = {
+    [1] = "Is your name Elsa?",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
+wait(1.5) -- Wait for 1.5 seconds
+
+-- Don't steal my script goofy
+local args = {
+    [1] = "Because I can't let you go ;)",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
