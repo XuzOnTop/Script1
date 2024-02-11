@@ -1,23 +1,12 @@
-
-local function sayMessage(player, message)
-    local humanoid = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
-    if humanoid then
-        humanoid:EquipTool(script.Parent)
-        wait(1.5)
-        humanoid:UnequipTools()
-        humanoid:EquipTool(script.Parent)
-        wait(1.5)
-        humanoid:UnequipTools()
-        humanoid:EquipTool(script.Parent)
-        humanoid:Say(message)
-    end
+local function chatMessage(player, message)
+    game:GetService("Chat"):Chat(player.Character, message, Enum.ChatColor.Blue)
 end
 
 script.Parent.Touched:Connect(function(hit)
     local player = game.Players:GetPlayerFromCharacter(hit.Parent)
     if player then
-        sayMessage(player, "Are you a school bus?")
+        chatMessage(player, "Are you a school bus?")
         wait(1.5)
-        sayMessage(player, "Cause I want to put kids in you ;)")
+        chatMessage(player, "Cause I want to put kids in you ;)")
     end
 end)
