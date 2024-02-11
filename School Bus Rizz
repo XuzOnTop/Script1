@@ -1,10 +1,6 @@
-local function chatMessage(player, message)
-    game:GetService("Chat"):Chat(player.Character, message, Enum.ChatColor.Blue)
-end
+local args = {
+    [1] = "Are you a school bus?",
+    [2] = "All"
+}
 
-local player = game.Players:GetPlayers()[1] -- Get the first player in the game
-if player then
-    chatMessage(player, "Are you a school bus?")
-    wait(1.5)
-    chatMessage(player, "Cause I want to put kids in you ;)")
-end
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
