@@ -28,6 +28,6 @@ local Main = Window:NewTab("Rizz")
 local MainSection = Main:NewSection("Rizz")
 
 MainSection:NewButton("School Bus Rizz", "Executes the script shown", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Rejoin'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/School%20Bus%20Rizz'))()
 end)
 
