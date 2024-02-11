@@ -1,0 +1,16 @@
+local args = {
+    [1] = "Are you a parking ticket?",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
+wait(1.5) -- Wait for 1.5 seconds
+
+-- Don't steal my script goofy
+local args = {
+    [1] = "Because you've got FINE written all over you ;)",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
