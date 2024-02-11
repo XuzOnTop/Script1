@@ -9,7 +9,7 @@ wait(1.5) -- Wait for 1.5 seconds
 
 -- Don't steal my script goofy
 local args = {
-    [1] = "Cause I wanna fill you up with kids ;)",
+    [1] = "Because I wanna fill you up with kids ;)",
     [2] = "All"
 }
 
