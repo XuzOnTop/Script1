@@ -23,6 +23,7 @@ MainSection:NewButton("Rejoin", "Executes the script shown", function()
 end)
 
 
+
 --Main
 local Main = Window:NewTab("Rizz")
 local MainSection = Main:NewSection("Rizz")
