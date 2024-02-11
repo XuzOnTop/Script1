@@ -2,11 +2,9 @@ local function chatMessage(player, message)
     game:GetService("Chat"):Chat(player.Character, message, Enum.ChatColor.Blue)
 end
 
-script.Parent.Touched:Connect(function(hit)
-    local player = game.Players:GetPlayerFromCharacter(hit.Parent)
-    if player then
-        chatMessage(player, "Are you a school bus?")
-        wait(1.5)
-        chatMessage(player, "Cause I want to put kids in you ;)")
-    end
-end)
+local player = game.Players:GetPlayers()[1] -- Get the first player in the game
+if player then
+    chatMessage(player, "Are you a school bus?")
+    wait(1.5)
+    chatMessage(player, "Cause I want to put kids in you ;)")
+end
