@@ -56,10 +56,6 @@ MainSection:NewButton("Tennessee Rizz", "Executes the script shown", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Tennessee%20Rizz'))()
 end)
 
-MainSection:NewButton("Beaver Rizz", "Executes the script shown", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Beaver%20Rizz'))()
-end)
-
 MainSection:New("Keyboard Rizz", "Executes the script shown", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Keyboard%20Rizz'))()
 end)
