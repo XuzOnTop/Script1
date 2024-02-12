@@ -12,6 +12,10 @@ MainSection:NewButton("Infinite Yield", "Executes the script shown", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+MainSection:NewButton("Namless Admin", "Executes the script shown", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+end)
+
 
 MainSection:NewButton("Tp Spam", "Executes the script shown", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Tp%20Spam'))()
