@@ -60,3 +60,7 @@ MainSection:NewButton("Keyboard Rizz", "Executes the script shown", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Keyboard%20Rizz'))()
 end)
 
+MainSection:NewButton("Vitamin Me Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Vitamin%20ME%20Rizz'))()
+end)
+
