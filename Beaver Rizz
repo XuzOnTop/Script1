@@ -9,7 +9,7 @@ wait(1.5) -- Wait for 1.5 seconds
 
 -- Don't steal my script goofy
 local args = {
-    [1] = "Because DAM!",
+    [1] = " DAM!",
     [2] = "All"
 }
 
