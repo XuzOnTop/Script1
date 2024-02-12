@@ -40,3 +40,27 @@ MainSection:NewButton("Cute Cumber Rizz", "Executes the script shown", function(
     loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Vegetable%20Rizz'))()
 end)
 
+MainSection:NewButton("Disney Ride Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Disney%20Ride%20Rizz'))()
+end)
+
+MainSection:NewButton("Elsa Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Elsa%20Rizz'))()
+end)
+
+MainSection:NewButton("Math Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Math%20Rizz'))()
+end)
+
+MainSection:NewButton("Tennessee Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Tennessee%20Rizz'))()
+end)
+
+MainSection:NewButton("Beaver Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Beaver%20Rizz'))()
+end)
+
+MainSection:New("Keyboard Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Keyboard%20Rizz'))()
+end)
+
