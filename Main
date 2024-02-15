@@ -16,6 +16,9 @@ MainSection:NewButton("Namless Admin", "Executes the script shown", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
 end)
 
+MainSection:NewButton("Chat Bypasser", "Executes the script shown", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Chat-Bypass-10545"))()
+end)
 
 MainSection:NewButton("Tp Spam", "Executes the script shown", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Tp%20Spam'))()
