@@ -1,0 +1,6 @@
+local args = {
+    [1] = "If you were a Transformer, you'd be ‘Optimus Fine’ ;)",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
