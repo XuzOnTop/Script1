@@ -68,3 +68,15 @@ MainSection:NewButton("Vitamin Me Rizz", "Executes the script shown", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Vitamin%20ME%20Rizz'))()
 end)
 
+MainSection:NewButton("You In My Arms Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/In%20my%20arms'))()
+end)
+
+MainSection:NewButton("Happiness Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Happiness'))()
+end)
+
+MainSection:NewButton("Optimus Fine Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Optimus%20Fine'))()
+end)
+
