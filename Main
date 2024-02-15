@@ -80,3 +80,7 @@ MainSection:NewButton("Optimus Fine Rizz", "Executes the script shown", function
     loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Optimus%20Fine'))()
 end)
 
+MainSection:NewButton("Hands Rizz", "Executes the script shown", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XuzOnTop/Script1/main/Hands'))()
+end)
+
