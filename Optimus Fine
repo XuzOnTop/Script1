@@ -1,5 +1,5 @@
 local args = {
-    [1] = "If you were a Transformer, you'd be ‘Optimus Fine’ ;)",
+    [1] = "If you were a Transformer, you'd be ‘Optimus FINE’ ;)",
     [2] = "All"
 }
 
