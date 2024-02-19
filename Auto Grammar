@@ -6,6 +6,7 @@ local replaceWords = {
     ["dont"] = "don't",
     ["doesnt"] = "doesn't",
     ["cant"] = "can't",
+    ["theyre"] = "they're",
     ["youre"] = "you're",
     ["ur"] = "your",
     ["u"] = "you",
