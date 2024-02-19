@@ -9,6 +9,7 @@ local replaceWords = {
     ["theyre"] = "they're",
     ["youre"] = "you're",
     ["ur"] = "your",
+    ["urs"] = "your's",
     ["whats"] = "what's",
     ["wsp"] = "What's up",
     ["u"] = "you",
