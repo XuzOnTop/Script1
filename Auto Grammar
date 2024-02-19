@@ -32,7 +32,7 @@ local replaceWords = {
     ["idc"] = "i don't care",
     ["abt"] = "about",
     ["yapin"] = "yappin",
-    ["nerd"] = "🤓",
+    ["yaper"] = "yapper",
 
     
 
