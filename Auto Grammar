@@ -31,6 +31,8 @@ local replaceWords = {
     ["ok"] = "okay",
     ["idc"] = "i don't care",
     ["yapin"] = "yappin",
+    ["nerd"] = "🤓",
+
     
 
 
