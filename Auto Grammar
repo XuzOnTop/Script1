@@ -35,6 +35,7 @@ local replaceWords = {
     ["abt"] = "about",
     ["yapin"] = "yappin",
     ["yaper"] = "yapper",
+    ["wdym"] = "what do you mean",
 
     
 
