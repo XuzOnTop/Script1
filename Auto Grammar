@@ -28,6 +28,9 @@ local replaceWords = {
     ["hows"] = "how's",
     ["ok"] = "okay",
     ["idc"] = "i don't care",
+    ["yapin"] = "yappin",
+    
+
 
     
     
