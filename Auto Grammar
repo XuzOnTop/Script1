@@ -27,6 +27,7 @@ local replaceWords = {
     ["grammer"] = "grammar",
     ["anymor"] = "anymore",
     ["thats"] = "that's",
+    ["r"] = "are",
 	["and"] = "&",
     ["teh"] = "the",
     ["brb"] = "be right back",
