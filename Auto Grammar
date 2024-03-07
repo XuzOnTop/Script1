@@ -65,6 +65,8 @@ local questionmarks = { -- words to add question marks to
     "what",
     "why",
     "day"
+    "about"
+    
 }
 oldnc = hookmetamethod(game,"__namecall",function(...)
     local method = getnamecallmethod()
