@@ -25,7 +25,6 @@ local replaceWords = {
     ["gud"] = "good",
     ["gramer"] = "grammar",
     ["grammer"] = "grammar",
-    ["``"] = "oh yea, thats noah boat n em",
     ["anymor"] = "anymore",
     ["thats"] = "that's",
     ["r"] = "are",
