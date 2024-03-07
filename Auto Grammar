@@ -23,6 +23,7 @@ local replaceWords = {
     ["thx"] = "thanks",
     ["git"] = "get",
     ["gud"] = "good",
+    ["r"] = "are",
     ["gramer"] = "grammar",
     ["grammer"] = "grammar",
     ["anymor"] = "anymore",
