@@ -1,5 +1,6 @@
 local replaceWords = {
     ["i"] = "I",
+    ["talkin"] = "talking",
     ["sotp"] = "stop",
     ["askin"] = "asking",
     ["y"] = "why",
@@ -23,7 +24,6 @@ local replaceWords = {
     ["thx"] = "thanks",
     ["git"] = "get",
     ["gud"] = "good",
-    ["r"] = "are",
     ["gramer"] = "grammar",
     ["grammer"] = "grammar",
     ["anymor"] = "anymore",
@@ -42,7 +42,6 @@ local replaceWords = {
     ["abt"] = "about",
     ["yapin"] = "yappin",
     ["yaper"] = "yapper",
-    ["js"] = "just",
     ["wdym"] = "what do you mean",
 
     
