@@ -1,5 +1,7 @@
 local replaceWords = {
     ["i"] = "I",
+    ["sotp"] = "stop",
+    ["askin"] = "asking",
     ["y"] = "why",
     ["im"] = "I am",
     ["ive"] = "I've",
