@@ -61,7 +61,7 @@ local questionmarks = { -- words to add question marks to
     "is",
     "what",
     "why",
-    "day"
+    "day",
     "about"
     
 }
