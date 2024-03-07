@@ -1,5 +1,7 @@
 local replaceWords = {
     ["i"] = "I",
+    ["guys"] = "guy's",
+    ["pedo"] = "like's 17 and younger",
     ["talkin"] = "talking",
     ["sotp"] = "stop",
     ["askin"] = "asking",
